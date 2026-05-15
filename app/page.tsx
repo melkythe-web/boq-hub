@@ -78,9 +78,9 @@ export default function Page() {
             <a href="#">Home</a>
             <a href="#">Materials</a>
             <a href="#">Estimator</a>
-            <a href="#">Suppliers</a>
+            <a href="/suppliers">Suppliers</a>
             <a href="#">Projects</a>
-            <a href="#">Pricing</a>
+            <a href="/pricing">Pricing</a>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -558,13 +558,14 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="flex gap-8 text-sm text-gray-400">
-            <a href="#">Home</a>
-            <a href="#">Materials</a>
-            <a href="#">Estimator</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-          </div>
+          <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-600">
+  <a href="/">Home</a>
+  <a href="/materials">Materials</a>
+  <a href="/estimator">Estimator</a>
+  <a href="/suppliers">Suppliers</a>
+  <a href="/projects">Projects</a>
+  <a href="/pricing">Pricing</a>
+</nav>
         </div>
       </footer>
     </main>
